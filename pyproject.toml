@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python3-cyberfusion-fast-redirect"
-version = "1.0.6.2.2"
+version = "1.0.6.2.3"
 description = "fast-redirect redirects domains."
 readme = "README.md"
 authors = [
