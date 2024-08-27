@@ -1,0 +1,22 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+if [ "$1" = "configure" ]; then
+    CONFIG_FILE_PATH=/var/lib/fast-redirect.json
+
+    if [ ! -f $CONFIG_FILE_PATH ]; then
+	echo "fast-redirect: config does not exist, creating..."
+
+        echo '{"redirects": {}}' > $CONFIG_FILE_PATH
+    else
+        echo "fast-redirect: config already exists, not creating"
+    fi
+
+    chown fast-redirect: $CONFIG_FILE_PATH
+    chmod 0600 $CONFIG_FILE_PATH
+fi
+
+exit 0
