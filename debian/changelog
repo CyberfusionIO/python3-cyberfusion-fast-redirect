@@ -1,3 +1,9 @@
+python3-cyberfusion-fast-redirect (1.0.7) unstable; urgency=low
+
+  - Update default port from 8080 to 8196
+
+ -- William Edwards <wedwards@cyberfusion.nl>  Thu, 29 Aug 2024 10:21:00 +0200
+
 python3-cyberfusion-fast-redirect (1.0.6.2.3) unstable; urgency=low
 
   - Don't override config file on upgrade
