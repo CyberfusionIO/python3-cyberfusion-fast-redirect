@@ -6,10 +6,9 @@
     <envs>
       <env name="DATABASE_PATH" value="tests/fast-redirect.json" />
     </envs>
-    <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-    <option name="SDK_NAME" value="Python 3.11 (python3-cyberfusion-fast-redirect)" />
+    <option name="SDK_HOME" value="" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    <option name="IS_MODULE_SDK" value="false" />
+    <option name="IS_MODULE_SDK" value="true" />
     <option name="ADD_CONTENT_ROOTS" value="true" />
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
