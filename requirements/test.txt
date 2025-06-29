@@ -1,7 +1,6 @@
 coverage==7.9.1
 httpx==0.27.0
 pytest==8.4.1
-pytest-asyncio==1.0.0
 pytest-cov==6.2.1
 pytest-xdist==3.7.0
 requests==2.32.4
