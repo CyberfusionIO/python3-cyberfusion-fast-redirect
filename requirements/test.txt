@@ -1,5 +1,5 @@
 coverage==7.12.0
-httpx==0.28.1
+httpx==0.27.0
 pytest==9.0.1
 pytest-cov==6.3.0
 pytest-xdist==3.8.0
