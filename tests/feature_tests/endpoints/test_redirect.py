@@ -1,9 +1,7 @@
 import pytest
 from starlette.testclient import TestClient
 
-# 'allow_redirects=False' is needed, related: https://github.com/tiangolo/fastapi/issues/790#issuecomment-607636599
-
-REDIRECT_REQUEST_OPTS = {"allow_redirects": False}
+REDIRECT_REQUEST_OPTS = {"follow_redirects": False}
 
 HEADERS_301_KEEP_ALL = {"Host": "301-keep-all.com"}
 HEADERS_302_KEEP_NONE = {"Host": "302-keep-none.com"}
